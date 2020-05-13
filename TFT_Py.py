@@ -24,7 +24,11 @@ else:
     print("未找到窗口")
 
 
-left += 100
-top += 344
+#left += 100
+#top += 344
+#click(left,top)
 
+left += 250
+top += 317
 click(left,top)
+keybd(0x57)
